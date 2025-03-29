@@ -17,14 +17,14 @@
                 "type": "string",
                 "format": "file-path",
                 "exists": true,
-                "pattern": "^\\S+\\.(bam|cram)$",
+                "pattern": "^\\S+\\.(bam|cram)\\??",
                 "errorMessage": "The sample sheet should specify a mapped file for each row, either '.bam' or '.cram'"
             },
             "index": {
                 "type": "string",
                 "format": "file-path",
                 "exists": true,
-                "pattern": "^\\S+\\.(bai|crai)$",
+                "pattern": "^\\S+\\.(bai|crai)\\??",
                 "errorMessage": "Index files can be provided but must have the extension '.bai' or '.crai'"
             },
             "file_type": {
